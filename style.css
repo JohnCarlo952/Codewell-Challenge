@@ -1,23 +1,26 @@
 /* General Styles */
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Prata&display=swap");
 
 /* font-family: 'Inter', sans-serif;
 font-family: 'Prata', serif; */
+
 * {
   margin: 0;
   padding: 0;
   font-family: "Prata", serif;
   box-sizing: border-box;
 }
-header {
-  width: 100%;
-  height: 80vh;
-  background: #0a0a0b;
-}
 p {
   font-family: "Inter", sans-serif;
 }
+
 /* Header-Nav styles */
+
+header {
+  width: 100%;
+  background: #0a0a0b;
+}
 
 .navlinks {
   display: flex;
@@ -47,38 +50,51 @@ p {
   padding: 15px 25px;
   background-color: #fbe850;
   color: #0a0a0b;
+  border-radius: 3px;
 }
 
-/* Header Introduction */
-header section {
-  margin: 50px 8%;
+/* Main */
+
+main {
+  width: 100%;
+  background: #0a0a0b;
 }
-header section h1 {
+/* Header Introduction */
+
+.header-introduction {
+  margin: 0 8%;
+}
+.header-introduction h1 {
   color: #fff;
   font-size: 56px;
 }
-header section p {
+.header-introduction p {
   margin-top: 10px;
   color: #8b8b8b;
   font-size: 18px;
 }
-.logo {
-  padding: 20px 0;
+
+/* Companies Logo */
+
+.comapanies-logo {
+  margin: 0 8%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+}
+.comapanies-logo div {
+  padding: 10px 0;
+  margin: 60px 0;
 }
 
-/* Main */
-main {
-  width: 100%;
-  height: 100vh;
-  background: #0a0a0b;
-}
+/* Main Section */
+
 .main-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   margin: 0 8%;
 }
 .main-section .img-header h2 {
@@ -91,3 +107,39 @@ main {
   margin-top: 12px;
   font-size: 18px;
 }
+.main-section .img-header {
+  margin-bottom: 60px;
+}
+
+/* Achievements */
+
+article {
+  width: 100%;
+  height: 30vw;
+  background-color: #2e3038;
+}
+.achievements {
+  margin: 0 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.achievements div {
+  margin-bottom: 60px;
+}
+
+.achievements div h2 {
+  margin-top: 60px;
+  line-height: 35px;
+  font-size: 34px;
+  color: #fff;
+}
+.achievements div p {
+  margin-top: 20px;
+  font-size: 17px;
+  line-height: 1.3;
+  color: #9e9e9f;
+}
+
+/* Contact */
