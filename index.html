@@ -4,82 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Codewell challenge</title>
+    <title>Codewell Challenge</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Header -->
-
+    <!--  Header Section -->
     <header>
-      <nav class="navlinks">
-        <span>Johnathan Specter</span>
-        <ul>
-          <li>
-            <a href="#">Articles</a>
-          </li>
-          <li>
-            <a href="#">Chats</a>
-          </li>
-          <li>
-            <a href="#">Awards</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
+      <nav>
+        <span>Orange<span id="orange">Dev</span></span>
+        <ul class="navlinks">
+          <li><a href="#">Articles</a></li>
+          <li><a href="#">Chats</a></li>
+          <li><a href="#">Awards</a></li>
+          <li><a href="#">About</a></li>
         </ul>
-        <a href="#" class="get-in-touch">Get in touch</a>
-        <a href="#" class="Hamburger"
-          ><img src="Assets/Hamburger Menu.svg" alt=""
-        /></a>
+        <a href="#" class="cta">Get in Touch</a>
+        <img src="Assets/Hamburger Menu.svg" alt="" id="hamburger" />
       </nav>
     </header>
 
-    <!-- Main -->
-
+    <!-- Main Section -->
     <main>
-      <!-- header-intro -->
-
-      <section class="header-introduction">
+      <!-- Main Introductory Section -->
+      <section class="Introductory">
         <h1>
-          Helping companies build <br />
+          Helping Companies build <br />
           better, scalable software.
         </h1>
         <p>
-          Award winning developer and author, with over 15+ years of working
+          Award-winning web developer and author, with over 15+ years of working
           <br />
-          experience with Fortune 500 companies like Apple, Google, Facebook,
+          experience with fortune 500 companies like Apple, Google, Facebook,
           and <br />
           more.
         </p>
       </section>
-
-      <!-- Companies-Logo -->
-
-      <section class="comapanies-logo">
-        <div>
+      <!-- Main Companies Section -->
+      <section class="Companies">
+        <div class="Companies__col">
           <img src="Assets/Logos/Walmart.svg" alt="" />
-        </div>
-        <div>
           <img src="Assets/Logos/JP Morgan.svg" alt="" />
-        </div>
-        <div>
           <img src="Assets/Logos/Visa.svg" alt="" />
-        </div>
-        <div>
           <img src="Assets/Logos/Tinder.svg" alt="" />
-        </div>
-        <div>
           <img src="Assets/Logos/Samsung.svg" alt="" />
-        </div>
-        <div>
           <img src="Assets/Logos/Verizon.svg" alt="" />
         </div>
       </section>
-
-      <!-- Main-Contents -->
-
-      <section class="main-section">
-        <div class="img-header">
+      <!-- Main Authorworks Section -->
+      <section class="Authorworks">
+        <div class="Authorworks__col">
           <img src="Assets/Spense.png" alt="" />
           <h2>Spense.com &rightarrow;</h2>
           <p>
@@ -89,9 +62,9 @@
             Codewell.cc
           </p>
         </div>
-        <div class="img-header">
+        <div class="Authorworks__col">
           <img src="Assets/YelpCamp.png" alt="" />
-          <h2>YelpCamp.com &rightarrow;</h2>
+          <h2>YelpCamp.com</h2>
           <p>
             Allowing backpack travelers to perfectly plan their trip <br />
             through an open-source platform similar to TripAdvisor. With <br />
@@ -100,76 +73,88 @@
           </p>
         </div>
       </section>
-
-      <!-- Achievements -->
-
-      <section class="achievements">
-        <div class="div-left">
-          <h2>
-            A co-founders at one of the <br />
-            world's largest communities.
-          </h2>
-          <p>
-            The combined experience i have working at the top fortune <br />
-            500 companies has allowed me to develop a skillset that <br />
-            helps me in not just development, but in every aspect of any <br />
-            business.
-            <br />
-            <br />
-            I'm proud to announce that i am now working at one of the <br />
-            world's largest communities teaching young minds about how <br />
-            to sell yourself as a developer and open them to a whole new <br />
-            world of oppurtunities.
-          </p>
-        </div>
-        <div class="div-right">
-          <p>
-            As a developer, you have everything available to you all <br />
-            that's holding you back is yourself.
-            <br />
-            <br />
-            A quote I live by perfectly illustrates what i mean.
-            <br />
-            <br />
-            "How big would you dream, if you <strong>knew</strong> you wouldn't
-            fail?" <br />
-            you've already gone through the hardest parts being a <br />
-            developer, its time to elevate your skills and become a leader
-            <br />
-            in someting you're passionate about.
-            <br />
-            <br />
-            I'm happy to chat over coffee some time about how i can help <br />
-            your company.
-          </p>
-        </div>
-      </section>
-      <section class="contact-contents">
-        <h2>Interested in working with me?</h2>
-        <p>
-          I'm active on all social media platforms listed below, but you <br />
-          can also send me an email and i will get back to you within 24-48
-          <br />
-          hours.
-        </p>
-        <a href="#" class="get-in-touch">Get in touch</a>
-      </section>
-      <footer>
-        <span>Johnathan Specter</span>
-        <ul>
-          <li>
-            <a href="#"><img src="Assets/Social Icons/Twitter.svg" alt="" /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="Assets/Social Icons/LinkedIn.svg" alt=""
-            /></a>
-          </li>
-          <li>
-            <a href="#"><img src="Assets/Social Icons/Github.svg" alt="" /></a>
-          </li>
-        </ul>
-      </footer>
     </main>
+    <!-- Achievements Section -->
+    <article class="Achievements">
+      <div class="Achievements_col">
+        <h2>
+          A co-founders at one of the <br />
+          world's largest communities.
+        </h2>
+        <p>
+          The combined experience i have working at the top fortune <br />
+          500 companies has allowed me to develop a skillset that <br />
+          helps me in not just development, but in every aspect of any <br />
+          business.
+          <br />
+          <br />
+          I'm proud to announce that i am now working at one of the <br />
+          world's largest communities teaching young minds about how <br />
+          to sell yourself as a developer and open them to a whole new <br />
+          world of oppurtunities.
+        </p>
+      </div>
+      <div class="Achievements_col">
+        <p>
+          As a developer, you have everything available to you all <br />
+          that's holding you back is yourself.
+          <br />
+          <br />
+          A quote I live by perfectly illustrates what i mean.
+          <br />
+          <br />
+          "How big would you dream, if you <strong>knew</strong> you wouldn't
+          fail?" <br />
+          you've already gone through the hardest parts being a <br />
+          developer, its time to elevate your skills and become a leader
+          <br />
+          in someting you're passionate about.
+          <br />
+          <br />
+          I'm happy to chat over coffee some time about how i can help <br />
+          your company.
+        </p>
+      </div>
+    </article>
+    <!-- Contact Section -->
+    <section class="Contact">
+      <h2>Interested in working with me?</h2>
+      <p>
+        I'm active on all social media platforms listed below, but you <br />
+        can also send me an email and i will get back to you within 24-48
+        <br />
+        hours.
+      </p>
+      <a href="#" class="cta">Get in Touch</a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <span>Orange<span id="orange">Dev</span></span>
+      <ul class="SocialIconsLogo">
+        <li>
+          <a href="#"> <img src="Assets/Social Icons/Twitter.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href="#"> <img src="Assets/Social Icons/LinkedIn.svg" alt="" /></a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/JohnCarlo952?tab=repositories"
+            target="_blank"
+          >
+            <img src="Assets/Social Icons/Github.svg" alt=""
+          /></a>
+        </li>
+      </ul>
+    </footer>
+    <script>
+      const menuBtn = document.querySelector("#hamburger");
+      const navlinks = document.querySelector(".navlinks");
+
+      menuBtn.addEventListener("click", function () {
+        navlinks.classList.toggle("mobileMenu");
+      });
+    </script>
   </body>
 </html>
